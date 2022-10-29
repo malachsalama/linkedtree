@@ -1,35 +1,27 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
-
 * {
   margin: 0;
-  border: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-:root {
-  --font-roboto: "Roboto Slab", serif;
-  --font-raleway: "Raleway", sans-serif;
-}
-
 body {
-  font-family: var(--font-roboto);
+  font-family: "Inter";
+  font-style: normal;
 }
 
 a {
+  display: flex;
+  align-items: center;
+  color: #101828;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
   text-decoration: none;
-  color: inherit;
-  background-color: #eaecf0;
-  padding: 24px 32px;
-  width: 1152px;
-  height: 76px;
-  border: 1px solid #eaecf0;
-  border-radius: 8px;
-  margin: 8px;
 }
 
 .App {
-  padding: 3rem;
+  margin: 4rem 9rem 0 9rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,6 +33,29 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+#avatar__share__button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 308px;
+  top: 45px;
+}
+
+#twitter {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #101828;
+  margin: 1rem 0 2rem 0;
+}
+
+#slack {
+  width: 24px;
+  height: 23.45px;
 }
 
 .Profile {
@@ -64,8 +79,46 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100%;
 }
 
-#twitter {
-  margin: 1rem 0;
+.Link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #eaecf0;
+  padding: 24px 0;
+  width: 100%;
+  height: 76px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 7rem;
+  gap: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid #eaecf0;
+  margin: 5rem 7rem 2rem 7rem;
+  padding-top: 1rem;
+}
+
+.footer p {
+  width: 832.28px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #667085;
 }
