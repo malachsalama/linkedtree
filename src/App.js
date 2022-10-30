@@ -2,7 +2,8 @@ import "./App.css";
 import profile from "./profile__img.svg";
 import slack from "./slack.png";
 import github from "./github.svg";
-import share from "./avatar__share__button.svg";
+import desktop from "./avatar__share__button.svg";
+import mobile from "./dots__horizontal.svg";
 import zuri from "./Zuri__Internship__Logo.svg";
 import ingressive from "./I4G.svg";
 
@@ -12,7 +13,8 @@ function App() {
       <div className="App">
         <header className="App-header">
           <img src={profile} id="profile__img" alt="avatar" />
-          <img src={share} id="avatar__share__button" alt="share" />
+          <img src={desktop} id="avatar__share__button__desktop" alt="share" />
+          <img src={mobile} id="avatar__share__button__mobile" alt="more" />
         </header>
         <div>
           <p id="twitter">Malach Salama</p>
