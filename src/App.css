@@ -110,7 +110,7 @@ a {
 
 .footer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   border-top: 1px solid #eaecf0;
   margin: 5rem 7rem 2rem 7rem;
