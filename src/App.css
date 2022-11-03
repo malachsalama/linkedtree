@@ -64,17 +64,6 @@ a {
   height: 23.45px;
 }
 
-.Profile {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  width: 88px;
-  height: 88px;
-  border-radius: 275px;
-}
-
 .Hidden {
   display: none;
 }
