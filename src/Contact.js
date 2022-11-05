@@ -12,7 +12,7 @@ const Contact = () => (
               Hi there, contact me to ask me about anything you have in mind.
             </p>
           </div>
-          <div className="Form">
+          <form className="Form">
             <div className="FormFields">
               <div className="name__row">
                 <div className="first__name">
@@ -21,6 +21,7 @@ const Contact = () => (
                     type="text"
                     id="first_name"
                     placeholder="Enter your first name"
+                    required
                   ></input>
                 </div>
                 <div className="last__name">
@@ -29,6 +30,7 @@ const Contact = () => (
                     type="text"
                     id="last_name"
                     placeholder="Enter your last name"
+                    required
                   ></input>
                 </div>
               </div>
@@ -38,6 +40,7 @@ const Contact = () => (
                   type="email"
                   id="email"
                   placeholder="yourname@email.com"
+                  required
                 ></input>
               </div>
               <div className="textarea__row">
@@ -46,18 +49,19 @@ const Contact = () => (
                   type="text"
                   id="message"
                   placeholder="Send me a message and I'll reply as soon as possible..."
+                  required
                 ></input>
               </div>
               <div className="checkbox__row">
-                <input type="checkbox" id="terms"></input>
+                <input type="checkbox" id="terms" required></input>
                 <label for="terms">
                   {" "}
                   You agree to providing your data to name who may contact you
                 </label>
               </div>
             </div>
-            <button id="btn__submit">Send message</button>
-          </div>
+            <input type="submit" id="btn__submit" value="Send message"></input>
+          </form>
         </div>
       </div>
     </div>
