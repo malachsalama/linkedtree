@@ -1,14 +1,15 @@
 import "./App.css";
 
+import Profile from "./Profile";
+import TwitterLink from "./TwitterLink";
+import ZuriTeam from "./ZuriTeam";
+import ZuriBooks from "./ZuriBooks";
+import PythonBooks from "./PythonBooks";
 import BackgroundCheck from "./BackgroundCheck";
 import DesignBooks from "./DesignBooks";
-import Footer from "./Footer";
-import Profile from "./Profile";
-import PythonBooks from "./PythonBooks";
+import Contact from "./ContactMe";
 import Socials from "./Socials";
-import TwitterLink from "./TwitterLink";
-import ZuriBooks from "./ZuriBooks";
-import ZuriTeam from "./ZuriTeam";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <PythonBooks />
           <BackgroundCheck />
           <DesignBooks />
+          <Contact />
         </div>
       </div>
       <Socials />
