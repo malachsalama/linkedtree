@@ -20,8 +20,7 @@ const Contact = () => (
                   <input
                     type="text"
                     id="first_name"
-                    name="fname"
-                    value="Enter your first name"
+                    placeholder="Enter your first name"
                   ></input>
                 </div>
                 <div className="last__name">
@@ -29,8 +28,7 @@ const Contact = () => (
                   <input
                     type="text"
                     id="last_name"
-                    name="lname"
-                    value="Enter your last name"
+                    placeholder="Enter your last name"
                   ></input>
                 </div>
               </div>
@@ -39,8 +37,7 @@ const Contact = () => (
                 <input
                   type="email"
                   id="email"
-                  name="email"
-                  value="yourname@email.com"
+                  placeholder="yourname@email.com"
                 ></input>
               </div>
               <div className="textarea__row">
@@ -48,17 +45,11 @@ const Contact = () => (
                 <input
                   type="text"
                   id="message"
-                  name="message"
-                  value="Send me a message and I'll reply as soon as possible..."
+                  placeholder="Send me a message and I'll reply as soon as possible..."
                 ></input>
               </div>
               <div className="checkbox__row">
-                <input
-                  type="checkbox"
-                  id="terms"
-                  name="terms"
-                  value="terms and conditions"
-                ></input>
+                <input type="checkbox" id="terms"></input>
                 <label for="terms">
                   {" "}
                   You agree to providing your data to name who may contact you
