@@ -1,6 +1,6 @@
 import React from "react";
-import zuri from "./Zuri__Internship__Logo.svg";
-import ingressive from "./I4G.svg";
+import zuri from "../assets/Zuri__Internship__Logo.svg";
+import ingressive from "../assets/I4G.svg";
 
 const Footer = () => (
   <div className="footer">

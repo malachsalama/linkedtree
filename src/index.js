@@ -3,8 +3,8 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import Contact from "./Contact";
-import ErrorPage from "./ErrorPage";
+import Contact from "../src/components/Contact";
+import ErrorPage from "../src/components/ErrorPage";
 import reportWebVitals from "./reportWebVitals";
 
 const router = createBrowserRouter([

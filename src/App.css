@@ -89,6 +89,10 @@ a {
   margin-bottom: 15px;
 }
 
+.Link:hover {
+  background: #d0d5dd;
+}
+
 .socials {
   display: flex;
   justify-content: center;
@@ -207,6 +211,10 @@ label {
   border-radius: 8px;
   border: none;
   font-weight: 600;
+}
+
+#btn__submit:hover {
+  background: #175cd3;
 }
 
 @media screen and (max-width: 768px) {

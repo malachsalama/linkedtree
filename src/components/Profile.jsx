@@ -1,7 +1,7 @@
 import React from "react";
-import profile from "./profile__img.svg";
-import desktop from "./avatar__share__button.svg";
-import mobile from "./dots__horizontal.svg";
+import profile from "../assets/profile__img.svg";
+import desktop from "../assets/avatar__share__button.svg";
+import mobile from "../assets/dots__horizontal.svg";
 
 const Profile = () => (
   <>

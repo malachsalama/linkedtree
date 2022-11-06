@@ -1,6 +1,6 @@
 import React from "react";
-import slack from "./slack.png";
-import github from "./github.svg";
+import slack from "../assets/slack.png";
+import github from "../assets/github.svg";
 
 const Socials = () => (
   <div className="socials">

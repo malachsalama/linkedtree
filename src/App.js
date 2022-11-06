@@ -1,15 +1,15 @@
 import "./App.css";
 
-import Profile from "./Profile";
-import TwitterLink from "./TwitterLink";
-import ZuriTeam from "./ZuriTeam";
-import ZuriBooks from "./ZuriBooks";
-import PythonBooks from "./PythonBooks";
-import BackgroundCheck from "./BackgroundCheck";
-import DesignBooks from "./DesignBooks";
-import Contact from "./ContactMe";
-import Socials from "./Socials";
-import Footer from "./Footer";
+import Profile from "./components/Profile";
+import TwitterLink from "./components/TwitterLink";
+import ZuriTeam from "./components/ZuriTeam";
+import ZuriBooks from "./components/ZuriBooks";
+import PythonBooks from "./components/PythonBooks";
+import BackgroundCheck from "./components/BackgroundCheck";
+import DesignBooks from "./components/DesignBooks";
+import Contact from "./components/ContactMe";
+import Socials from "./components/Socials";
+import Footer from "./components/Footer";
 
 function App() {
   return (
