@@ -127,7 +127,9 @@ a {
 
 /* Contact page */
 .Container {
-  margin: 3rem 22rem;
+  margin: auto;
+  max-width: 650px;
+  padding-top: 3rem;
 }
 
 .HeadingAndSupportingText {
